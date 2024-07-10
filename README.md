@@ -18,7 +18,7 @@ Puedes instalar las dependencias ejecutando los siguientes comandos en tu termin
 ```bash
 pip install -r requirements_train.txt
 pip install -r requirements_detections.txt
-
+```
 ## Gestión de archivos
 
 Se contiene una carpeta de modulos que contienen todas las funciones usadas para ejecutar el código de detección en tiempo real; estos modulos reunen y ejecutan funciones de librerías como Opencv, Tensorflow y Mediapipe.
