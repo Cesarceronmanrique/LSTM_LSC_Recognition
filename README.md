@@ -1,20 +1,23 @@
 # LSTM_LSC_Recognition
-Este repositorio contiene la implementación de un modelo de reconocimiento de señas en Lengua de Señas Colombiana (LSC) utilizando Long Short-Term Memory (LSTM).
-***
-El objetivo de este proyecto es desarrollar un sistema que pueda reconocer las señas de la LSC a partir de secuencias de datos de movimiento. El modelo LSTM es adecuado para este tipo de tareas debido a su capacidad para capturar dependencias a largo plazo en datos secuenciales.
-***
+
+Este repositorio proporciona una implementación de un modelo para el reconocimiento de señas en la Lengua de Señas Colombiana (LSC) utilizando redes neuronales Long Short-Term Memory (LSTM).
+
+## Descripción
+
+El objetivo de este proyecto es desarrollar un sistema capaz de reconocer las señas en LSC a partir de secuencias de datos de movimiento. El modelo LSTM es particularmente adecuado para esta tarea debido a su habilidad para capturar dependencias a largo plazo en datos secuenciales.
 
 ## Dependencias
 
-Para la instalación de dependencias se poseen 2 archivos en formato .txt que contienen las librerías correspondientes para 2 ambientes virtuales.
+Para instalar las dependencias necesarias, se proporcionan dos archivos de requisitos para diferentes entornos:
 
-- requirements_train.txt : Que corresponde al ambiente usado para el entrenamiento del modelo.
+- **`requirements_train.txt`**: Contiene las librerías necesarias para el entrenamiento del modelo.
+- **`requirements_detections.txt`**: Incluye las librerías requeridas para realizar pruebas en tiempo real con el modelo entrenado.
 
-'pip install -r requirements_detections.txt
+Puedes instalar las dependencias ejecutando los siguientes comandos en tu terminal:
 
-- requirements_detections.txt : Que corresponde al ambiente usado para hacer pruebas en tiempo real del modelo entrenado.
-
-'pip install -r requirements_detections.txt
+```bash
+pip install -r requirements_train.txt
+pip install -r requirements_detections.txt
 
 ## Gestión de archivos
 
